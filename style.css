@@ -91,5 +91,6 @@ ul li {
 }
 
 #contact a:hover {
+    color: #da1a1a;
     text-decoration: underline;
 }

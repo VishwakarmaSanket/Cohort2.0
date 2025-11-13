@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy, Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: auto;
+    width: 400px;
+    background-color: #222;
+    border-radius: 22px;
+    padding: 30px 20px;
+}
+
+.card h1 {
+    color: #24cfa5;
+    margin-bottom: 20px;
+}
+
+.value {
+    background-color: #333;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 22px;
+}
+
+.value h2 {
+    color: #bababa;
+    font-size: 30px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+button {
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    color: #111;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#add {
+    background-color: #24cfa5;
+}
+
+#sub {
+    background-color: #bababa;
+}

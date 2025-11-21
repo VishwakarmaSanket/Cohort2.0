@@ -1,0 +1,164 @@
+@font-face {
+    font-family: GT;
+    src: url(/fonts/GT-Pressura-Mono-DdoS1pxd.woff);
+}
+
+@font-face {
+    font-family: SB;
+    src: url(fonts/SuisseIntl-Book.otf);
+}
+
+@font-face {
+    font-family: Bevan;
+    src: url(/fonts/Bevan-Regular.ttf);
+}
+
+@font-face {
+    font-family: CA;
+    src: url(/fonts/central-avenue-bold-pro-6UznX6Mq.woff);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background: #111;
+    background: url(/images/Autumn_Drop_2_-_Lookbook1_1920x.webp) no-repeat center center/cover;
+}
+
+.img {
+    position: absolute;
+    top: 20%;
+    height: 40%;
+    width: 100%;
+}
+
+#img1 {
+    height: auto;
+    width: 200px;
+    position: absolute;
+    right: 8%;
+    top: 12%;
+}
+
+#img2 {
+    z-index: 99;
+    height: auto;
+    width: 200px;
+    position: absolute;
+    right: 20%;
+}
+
+#img3 {
+    top: 72%;
+    height: auto;
+    width: 200px;
+    position: absolute;
+    right: 18%;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+    font-family: GT;
+    font-weight: 100;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 12px;
+}
+
+.midnav {
+    position: absolute;
+    left: 50%;
+    top: 1.2%;
+    transform: translateX(-50%);
+}
+
+.midnav h1 {
+    text-align: center;
+    font-family: Bevan;
+    font-family: 200;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.leftnav {
+    display: flex;
+    gap: 30px;
+}
+
+.rightnav {
+    display: flex;
+    gap: 30px;
+}
+
+#left {
+    position: absolute;
+    left: 3%;
+    bottom: 20%;
+    margin-bottom: 5vh;
+}
+
+#left h1 {
+    padding: 0;
+    font-family: CA;
+    color: white;
+    font-size: 6vw;
+    letter-spacing: 2px;
+    line-height: 10vh;
+}
+
+#btn {
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#btn button {
+    padding: 8px 12px;
+    font-family: CA;
+    letter-spacing: 4px;
+    font-weight: 200;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(168, 123, 64);
+    color: white;
+    font-weight: 100;
+}
+
+#btn button:hover {
+    background-color: white;
+    color: #333;
+    box-shadow: 0 0 30px rgb(168, 123, 64), 0 0 60px rgb(168, 123, 64);
+}
+
+::selection {
+    background: rgb(168, 123, 64);
+    color: white;
+}

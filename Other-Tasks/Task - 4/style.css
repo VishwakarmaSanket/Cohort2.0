@@ -1,0 +1,233 @@
+@font-face {
+    font-family: apple;
+    src: url(./assets/fonts/sf-pro-text_regular.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: apple;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #222;
+    color: #fff;
+}
+
+nav h4 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+video {
+    height: 80%;
+    width: 100%;
+    border: none;
+    object-fit: contain;
+    object-position: top;
+}
+
+.content {
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3vw;
+}
+
+.content h4 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background: url(./assets/images/hero_iphone_17_pro__bknyzxfk2agi_small_2x.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.content2 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content2 h1 {
+    margin-top: 10vh;
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+
+.content2 h4 {
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+
+.btn {
+    margin-top: 4vh;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 50px;
+}
+
+#btn2 {
+    background-color: transparent;
+    border: 2px solid royalblue;
+    color: royalblue;
+    font-weight: 300;
+}
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    background: url(./assets/images/hero_iphone_air__0gxyavihpiqu_small_2x.jpg);
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.content3 {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content3 h1 {
+    margin-top: 10vh;
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+
+.content3 h4 {
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+
+#page4 {
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.content4 {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    height: auto;
+    width: 50%;
+    background-color: #222;
+}
+
+#box1 {
+    background: url(./assets/images/promo_iphone_17__bhofuohbsu3m_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box2 {
+    background: url(./assets/images/promo_airpodspro_3__f6xmza7bglei_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background: url(./assets/images/promo_apple_watch_series_11__b63hxviqvonm_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box4 {
+    background: url(./assets/images/promo_apple_watch_se_3__fz5y29qx5mmy_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box5 {
+    background: url(./assets/images/promo_apple_watch_ultra3__bwvslhbxx99e_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box6 {
+    background: url(./assets/images/promo_iphone_tradein__bugw15ka691e_small_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box_content {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box_content h1 {
+    margin-top: 10vh;
+    font-size: 3vw;
+    margin-bottom: 5px;
+}
+
+.box_content h4 {
+    font-weight: 100;
+    font-size: 1.5vw;
+}

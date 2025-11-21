@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:nth-child(1) {
+  background-image: url("https://i.pinimg.com/1200x/65/df/9f/65df9ff03792802a3fc5f1c416bd63cf.jpg");
+}
+main section:nth-child(2) {
+  background-image: url("https://i.pinimg.com/736x/71/d0/8c/71d08caf066e888827ab1b888415f320.jpg");
+}
+main section:nth-child(3) {
+  background-image: url("https://i.pinimg.com/736x/a7/6a/ff/a76affbcbc2b705d35e60a0bd564516a.jpg");
+}
+main section:nth-child(4) {
+  background-image: url("https://i.pinimg.com/736x/ee/0f/34/ee0f34588843a6710416e39be52490fb.jpg");
+}
+main section:nth-child(5) {
+  background-image: url("https://i.pinimg.com/736x/99/47/35/994735ccb4862603de748ac4e87fd6db.jpg");
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,590 @@
+@font-face {
+  font-family: Heading;
+  src: url(./fonts/63cffc0a3942456e003bc265_Chillax-Regular.woff);
+}
+@font-face {
+  font-family: font2;
+  src: url(./fonts/63cffc20aa8997095067596f_Satoshi-Light.woff);
+}
+@font-face {
+  font-family: font3;
+  src: url(./fonts/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #dadada;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+body {
+  background-color: #111;
+}
+
+section {
+  max-width: 2000px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section.view1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.view1 .top {
+  width: 100%;
+}
+main section.view1 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section.view1 .bottom {
+  background-color: #222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+}
+main section.view1 .bottom p {
+  font-family: font3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+main section.view1 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view1 .bottom .text h1 {
+  font-family: Heading;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+main section.view1 .bottom .text p {
+  font-family: font2;
+  font-weight: 200;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+main section.view1 .bottom .text button {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #dadada;
+}
+main section.view2 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+main section.view2 .top,
+main section.view2 .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+main section.view2 .top .element,
+main section.view2 .bottom .element {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+main section.view2 .top .element small,
+main section.view2 .bottom .element small {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  opacity: 0.8;
+}
+main section.view2 .top .element h2,
+main section.view2 .bottom .element h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+main section.view3 {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .top {
+  width: 100%;
+}
+main section.view3 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section.view3 .bottom {
+  background-color: #222;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+main section.view3 .bottom p {
+  font-family: font3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+main section.view3 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view3 .bottom .text h1 {
+  font-family: Heading;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 3.4rem;
+}
+main section.view3 .bottom .text p {
+  font-family: font2;
+  font-weight: 200;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+main section.view4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.view4 .top {
+  width: 100%;
+}
+main section.view4 .top img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+main section.view4 .bottom {
+  background-color: #222;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 1.5rem;
+  border-radius: 0.7rem;
+}
+main section.view4 .bottom .bottom > p {
+  font-family: font3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+main section.view4 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view4 .bottom .text h1 {
+  font-family: Heading;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+main section.view4 .bottom .text p {
+  font-weight: 200;
+  opacity: 0.6;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+main section.view5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main section.view5 .top {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem 2rem;
+}
+main section.view5 .top h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Heading;
+}
+main section.view5 .bottom {
+  width: 100%;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+main section.view5 .bottom .card {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+main section.view5 .bottom .card .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  background-color: rgba(121, 121, 121, 0.4901960784);
+  border-radius: 50%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  display: inline-flex;
+  font-size: 1.2rem;
+}
+main section.view5 .bottom .card .top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+}
+main section.view5 .bottom .card .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(86, 86, 86, 0.4901960784);
+  padding: 1rem;
+  border-radius: 0.7rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+main section.view5 .bottom .card .bottom p {
+  font-family: Heading;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+main section.view5 .bottom .card .bottom .para {
+  font-family: font3;
+  font-size: 1.2rem;
+}
+main section.view5 .bottom #card1 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0.7rem;
+  background: url(./images/team1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main section.view5 .bottom #card2 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0.7rem;
+  background: url(./images/team2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main section.view5 .bottom #card3 {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 0.7rem;
+  background: url(./images/team3.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main section.view6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+main section.view6 .bottom {
+  background-color: #c7b769;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+main section.view6 .bottom .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section.view6 .bottom h1 {
+  font-family: font3;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #111;
+}
+main section.view6 .bottom p {
+  font-family: Heading;
+  font-size: 3rem;
+  color: #111;
+  line-height: 3rem;
+  text-transform: uppercase;
+}
+main section.view6 .bottom button {
+  padding: 1rem 3rem;
+  border-radius: 0.7rem;
+  border: none;
+  outline: none;
+  background-color: #111;
+  color: #dadada;
+  font-family: font3;
+  font-size: 1.2rem;
+}
+main footer {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main footer .part1 {
+  width: 100%;
+  background-color: #222;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4rem;
+}
+main footer .part1 .top {
+  width: 100%;
+}
+main footer .part1 .top h1 {
+  font-family: Heading;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+main footer .part1 .bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+main footer .part1 .icon {
+  border-radius: 50%;
+  background-color: rgba(113, 113, 113, 0.405);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+main footer .part2 {
+  background-color: #222;
+  width: 100%;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+main footer .part2 .p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+main footer .part2 .p1 h1 {
+  font-family: Heading;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+main footer .part2 .p1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+}
+main footer .part2 .p1 ul li {
+  opacity: 0.8;
+  font-size: 1.1rem;
+  font-weight: 200;
+  font-family: font3;
+  text-decoration: none;
+}
+main footer .part3 {
+  background-color: #222;
+  width: 100%;
+  border-radius: 0.7rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main footer .part3 h1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  text-align: center;
+  font-family: font3;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #dadada;
+  line-height: 1.6rem;
+}
+main footer .part3 h1 a {
+  color: #e2e2e2;
+  text-decoration: none;
+  font-weight: 400;
+  transition: opacity 0.2s ease;
+  text-align: center;
+}
+main footer .part3 h1 a:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 900px) {
+  main section.view1 {
+    flex-direction: row;
+    padding: 2.4rem 1rem;
+  }
+  main section.view1 .top,
+  main section.view1 .bottom {
+    width: 50%;
+  }
+  main section.view1 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section.view1 .bottom .text {
+    gap: 1.2rem;
+  }
+  main section.view1 .bottom .text h1 {
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+  }
+  main section.view1 .bottom .text p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  main section.view2 {
+    flex-direction: row;
+    padding: 1rem 4rem;
+  }
+  main section.view3 {
+    flex-direction: row-reverse;
+    padding: 0.5rem 1rem;
+  }
+  main section.view3 .top,
+  main section.view3 .bottom {
+    width: 50%;
+  }
+  main section.view3 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section.view3 .bottom .bottom > p {
+    text-transform: uppercase;
+  }
+  main section.view3 .bottom .paragraph {
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem 0 0;
+  }
+  main section.view3 .bottom .paragraph p {
+    font-size: 1rem;
+  }
+  main section.view4 {
+    flex-direction: row;
+    padding: 0.5rem 1rem;
+  }
+  main section.view4 .top,
+  main section.view4 .bottom {
+    width: 50%;
+  }
+  main section.view4 .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section.view4 .bottom .text {
+    gap: 1.2rem;
+  }
+  main section.view4 .bottom .text h1 {
+    font-size: 3.6rem;
+    line-height: 3.8rem;
+  }
+  main section.view4 .bottom .text p {
+    width: 80%;
+    font-size: 1rem;
+  }
+  main section.view5 .bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  main section.view6 .bottom .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    flex-direction: row;
+  }
+  main section.view6 .bottom .text p {
+    padding: 0 8rem 0 0;
+    line-height: 4rem;
+    font-size: 4rem;
+  }
+  main section.view6 .bottom .text button {
+    width: 30%;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+  }
+  main footer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+    grid-template-rows: 3fr 0.5fr;
+    grid-template-areas: "part1 part2 part2" "part1 part3 part3";
+    gap: 1rem;
+  }
+  main footer .part1 {
+    grid-area: part1;
+  }
+  main footer .part2 {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    grid-area: part2;
+  }
+  main footer .part3 {
+    grid-area: part3;
+  }
+}/*# sourceMappingURL=style.css.map */
